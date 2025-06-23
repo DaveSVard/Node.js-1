@@ -26,8 +26,8 @@ const { DirectoryInfo } = require("./DirectoryInfo");
 
 // 3)
 
-// const folder = new DirectoryInfo('./test-organize');
+const folder = new DirectoryInfo('./test-organize');
 
-// (async () => {
-//   await folder.organize();
-// })();
+(async () => {
+  await folder.organize();
+})();
